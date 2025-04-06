@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "reserveTable": "Reserve a Table"
+  },
+  "home": {
+    "hero": {
+      "title": "Experience Authentic",
+      "subtitle": "Ethiopian and Eritrean Cuisine",
+      "description": "A culinary journey through the flavors of Ethiopia and Eritrea in an elegant savanna-inspired setting",
+      "reserveButton": "Reserve Your Table",
+      "exploreMenu": "Explore Our Menu"
+    },
+    "discover": "Discover",
+    "about": {
+      "heritage": "Our Heritage",
+      "discoverTitle": "Discover",
+      "discoverSubtitle": "Our Story",
+      "paragraph1": "Habesha Savanna represents the finest Ethiopian and Eritrean gastronomy, where ancient culinary traditions meet contemporary elegance. Our restaurant celebrates the rich flavors and cultural heritage of Ethiopia and Eritrea in a warm, savanna-inspired setting.",
+      "paragraph2": "Each dish tells a story of Ethiopia and Eritrea's diverse regions, carefully crafted with the finest ingredients and presented with artistic precision. We invite you to experience the authentic tastes and traditions that make Ethiopian and Eritrean cuisine so special.",
+      "learnMore": "Learn More About Us"
+    },
+    "dining": {
+      "subtitle": "Elevate Your Senses",
+      "title": "An Extraordinary Dining Experience",
+      "description": "Immerse yourself in the perfect harmony of flavors, ambiance, and service that defines Habesha Savanna"
+    },
+    "reservation": {
+      "subtitle": "Book Your Experience",
+      "title": "Reserve Your Table",
+      "description": "Secure your table at Habesha Savanna and embark on an unforgettable culinary journey through the flavors of Ethiopia and Eritrea. Our reservation system ensures a seamless experience from booking to dining.",
+      "callUs": "Call Us",
+      "openingHours": "Opening Hours",
+      "lunch": "Lunch",
+      "dinner": "Dinner",
+      "reservations": "Reservations",
+      "recommendedAdvance": "Recommended at least 2 days in advance",
+      "buttonText": "Reserve Your Table"
+    },
+    "location": {
+      "title": "Visit Habesha Savanna",
+      "address": "123 Restaurant Street, Amsterdam, Netherlands",
+      "getDirections": "Get Directions"
+    }
+  },
+  "about": {
+    "pageTitle": "About Us",
+    "pageDescription": "Discover the story behind Habesha Savanna Eetcafé and our passion for Ethiopian and Eritrean cuisine",
+    "ourStory": {
+      "title": "Our Story",
+      "paragraph1": "Habesha Savanna Eetcafé was founded in 2010 with a simple mission: to share the rich culinary traditions of Ethiopia with the people of Amsterdam. Our founder, Makeda Haile, grew up in Addis Ababa where she learned the art of Ethiopian cooking from her mother and grandmother.",
+      "paragraph2": "After moving to the Netherlands, Makeda noticed a lack of authentic Ethiopian restaurants and decided to create a space where people could experience the unique flavors, aromas, and dining customs of her homeland.",
+      "paragraph3": "What started as a small café has grown into one of the most beloved Ethiopian restaurants in the city, known for our commitment to authenticity, quality ingredients, and warm hospitality."
+    },
+    "ourFood": {
+      "title": "Our Food",
+      "paragraph1": "At Habesha Savanna, we take pride in preparing authentic Ethiopian and Eritrean cuisine using traditional methods and the finest ingredients. Our spices are imported directly from Ethiopia and Eritrea, ensuring the true flavors of dishes like Doro Wot, Kitfo, and our vegetarian combinations.",
+      "paragraph2": "Central to Ethiopian and Eritrean cuisine is injera, a sourdough flatbread with a unique, slightly spongy texture. We make our injera fresh daily using teff flour, following the traditional fermentation process that gives it its distinctive tangy flavor.",
+      "paragraph3": "Ethiopian and Eritrean dining is a communal experience, with various dishes served on a large piece of injera that serves as both plate and utensil. We encourage our guests to embrace this tradition, using pieces of injera to scoop up the flavorful stews and salads."
+    },
+    "values": {
+      "quality": {
+        "title": "Quality",
+        "description": "We use only the finest ingredients, with spices imported directly from Ethiopia and Eritrea."
+      },
+      "authenticity": {
+        "title": "Authenticity",
+        "description": "Our recipes have been passed down through generations, preserving traditional flavors."
+      },
+      "community": {
+        "title": "Community",
+        "description": "We celebrate the Ethiopian and Eritrean tradition of communal dining and sharing food."
+      },
+      "experience": {
+        "title": "Experience",
+        "description": "With over a decade of service, we've perfected the art of Ethiopian and Eritrean cuisine."
+      }
+    },
+    "visitUs": {
+      "title": "Visit Us",
+      "description": "We invite you to experience the warm hospitality and delicious cuisine of Habesha Savanna Eetcafé. Whether you're a longtime fan of Ethiopian food or trying it for the first time, we look forward to sharing our culinary heritage with you."
+    }
+  },
+  "features": {
+    "coffeeCeremony": {
+      "title": "Traditional Coffee Ceremony",
+      "description": "Experience the authentic Ethiopian and Eritrean coffee ceremony, a ritual that honors Ethiopia and Eritrea's rich coffee heritage, served with traditional snacks."
+    },
+    "privateDining": {
+      "title": "Private Dining",
+      "description": "Our exclusive private dining areas offer an intimate setting for special occasions, with personalized menus and dedicated service."
+    },
+    "terrace": {
+      "title": "Savanna Terrace",
+      "description": "Dine under the stars on our elegant terrace, designed to evoke the serene beauty of the Ethiopian and Eritrean savanna."
+    }
+  },
+  "reservation": {
+    "pageTitle": "Reserve Your Table",
+    "pageDescription": "Experience the authentic flavors of Ethiopia and Eritrea in our elegant dining atmosphere",
+    "bookExperience": "Book Your Experience",
+    "formDescription": "Complete the form below to reserve your table at Habesha Savanna. Your reservation request will be sent instantly to our staff, and we'll confirm your booking via email or phone. We look forward to providing you with an unforgettable Ethiopian dining experience.",
+    "formSuccess": "Reservation Request Submitted",
+    "formSuccessDescription": "We're excited to welcome you to Habesha Savanna. We will contact you shortly to confirm your reservation.",
+    "makeAnother": "Make Another Reservation",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "date": "Date",
+      "time": "Time",
+      "guests": "Number of Guests",
+      "occasion": "Occasion (Optional)",
+      "message": "Special Requests (Optional)",
+      "submit": "Submit Reservation"
+    },
+    "hoursAvailability": "Hours & Availability",
+    "lunchService": "Lunch Service",
+    "lunchHours": "Monday - Sunday: 12:00 - 15:00",
+    "dinnerService": "Dinner Service",
+    "dinnerHours1": "Monday - Thursday: 18:00 - 22:30",
+    "dinnerHours2": "Friday - Saturday: 18:00 - 23:30",
+    "dinnerHours3": "Sunday: 18:00 - 22:00",
+    "advanceBooking": "Advance Booking",
+    "advanceBookingDesc": "We recommend booking at least 2-3 days in advance, especially for weekend dining.",
+    "groupReservations": "Group Reservations",
+    "groupReservationsDesc": "For parties of 8 or more, please contact us directly at +31 20 123 4567 or email savanna2512@outlook.com"
+  }
+} 

@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "Over Ons",
+    "gallery": "Galerij",
+    "contact": "Contact",
+    "reserveTable": "Reserveer een Tafel"
+  },
+  "home": {
+    "hero": {
+      "title": "Ervaar Authentieke",
+      "subtitle": "Ethiopische en Eritrese Keuken",
+      "description": "Een culinaire reis door de smaken van Ethiopië en Eritrea in een elegante savanne-geïnspireerde omgeving",
+      "reserveButton": "Reserveer Uw Tafel",
+      "exploreMenu": "Ontdek Ons Menu"
+    },
+    "discover": "Ontdek",
+    "about": {
+      "heritage": "Onze Erfgoed",
+      "discoverTitle": "Ontdek",
+      "discoverSubtitle": "Ons Verhaal",
+      "paragraph1": "Habesha Savanna vertegenwoordigt de fijnste Ethiopische en Eritrese gastronomie, waar eeuwenoude culinaire tradities samenkomen met hedendaagse elegantie. Ons restaurant viert de rijke smaken en cultureel erfgoed van Ethiopië en Eritrea in een warme, door de savanne geïnspireerde omgeving.",
+      "paragraph2": "Elk gerecht vertelt een verhaal over de diverse regio's van Ethiopië en Eritrea, zorgvuldig bereid met de fijnste ingrediënten en gepresenteerd met artistieke precisie. We nodigen u uit om de authentieke smaken en tradities te ervaren die de Ethiopische en Eritrese keuken zo bijzonder maken.",
+      "learnMore": "Meer Over Ons"
+    },
+    "dining": {
+      "subtitle": "Verhef Uw Zintuigen",
+      "title": "Een Buitengewone Eetervaring",
+      "description": "Dompel uzelf onder in de perfecte harmonie van smaken, ambiance en service die Habesha Savanna definieert"
+    },
+    "reservation": {
+      "subtitle": "Boek Uw Ervaring",
+      "title": "Reserveer Uw Tafel",
+      "description": "Reserveer uw tafel bij Habesha Savanna en begin aan een onvergetelijke culinaire reis door de smaken van Ethiopië en Eritrea. Ons reserveringssysteem zorgt voor een naadloze ervaring van boeking tot dining.",
+      "callUs": "Bel Ons",
+      "openingHours": "Openingstijden",
+      "lunch": "Lunch",
+      "dinner": "Diner",
+      "reservations": "Reserveringen",
+      "recommendedAdvance": "Aanbevolen minimaal 2 dagen van tevoren",
+      "buttonText": "Reserveer Uw Tafel"
+    },
+    "location": {
+      "title": "Bezoek Habesha Savanna",
+      "address": "123 Restaurantstraat, Amsterdam, Nederland",
+      "getDirections": "Route"
+    }
+  },
+  "about": {
+    "pageTitle": "Over Ons",
+    "pageDescription": "Ontdek het verhaal achter Habesha Savanna Eetcafé en onze passie voor Ethiopische en Eritrese keuken",
+    "ourStory": {
+      "title": "Ons Verhaal",
+      "paragraph1": "Habesha Savanna Eetcafé werd in 2010 opgericht met een eenvoudige missie: de rijke culinaire tradities van Ethiopië delen met de mensen in Amsterdam. Onze oprichter, Makeda Haile, groeide op in Addis Ababa waar ze de kunst van de Ethiopische keuken leerde van haar moeder en grootmoeder.",
+      "paragraph2": "Na haar verhuizing naar Nederland merkte Makeda een gebrek aan authentieke Ethiopische restaurants op en besloot ze een plek te creëren waar mensen de unieke smaken, aroma's en eetgewoonten van haar thuisland konden ervaren.",
+      "paragraph3": "Wat begon als een klein café is uitgegroeid tot een van de meest geliefde Ethiopische restaurants in de stad, bekend om onze toewijding aan authenticiteit, kwaliteitsingrediënten en warme gastvrijheid."
+    },
+    "ourFood": {
+      "title": "Ons Eten",
+      "paragraph1": "Bij Habesha Savanna zijn we trots op het bereiden van authentieke Ethiopische en Eritrese gerechten met traditionele methoden en de fijnste ingrediënten. Onze kruiden worden rechtstreeks uit Ethiopië en Eritrea geïmporteerd, wat zorgt voor de ware smaken van gerechten zoals Doro Wot, Kitfo en onze vegetarische combinaties.",
+      "paragraph2": "Centraal in de Ethiopische en Eritrese keuken staat injera, een zuurdesembrood met een unieke, licht sponsachtige textuur. We maken onze injera dagelijks vers met teffmeel, volgens het traditionele fermentatieproces dat zorgt voor de kenmerkende zure smaak.",
+      "paragraph3": "Ethiopisch en Eritrees eten is een gemeenschappelijke ervaring, waarbij verschillende gerechten worden geserveerd op een groot stuk injera dat zowel als bord en bestek dient. We moedigen onze gasten aan om deze traditie te omarmen, door stukjes injera te gebruiken om de smaakvolle stoofpotten en salades op te scheppen."
+    },
+    "values": {
+      "quality": {
+        "title": "Kwaliteit",
+        "description": "We gebruiken alleen de fijnste ingrediënten, met kruiden die rechtstreeks uit Ethiopië en Eritrea worden geïmporteerd."
+      },
+      "authenticity": {
+        "title": "Authenticiteit",
+        "description": "Onze recepten zijn van generatie op generatie doorgegeven, waarbij traditionele smaken worden behouden."
+      },
+      "community": {
+        "title": "Gemeenschap",
+        "description": "We vieren de Ethiopische en Eritrese traditie van gezamenlijk eten en het delen van voedsel."
+      },
+      "experience": {
+        "title": "Ervaring",
+        "description": "Met meer dan tien jaar ervaring hebben we de kunst van de Ethiopische en Eritrese keuken geperfectioneerd."
+      }
+    },
+    "visitUs": {
+      "title": "Bezoek Ons",
+      "description": "We nodigen u uit om de warme gastvrijheid en heerlijke keuken van Habesha Savanna Eetcafé te ervaren. Of u nu een langdurige fan bent van Ethiopisch eten of het voor het eerst probeert, we kijken ernaar uit om ons culinaire erfgoed met u te delen."
+    }
+  },
+  "features": {
+    "coffeeCeremony": {
+      "title": "Traditionele Koffieceremonie",
+      "description": "Ervaar de authentieke Ethiopische en Eritrese koffieceremonie, een ritueel dat de rijke koffie-erfgoed van Ethiopië en Eritrea eert, geserveerd met traditionele snacks."
+    },
+    "privateDining": {
+      "title": "Privé Dining",
+      "description": "Onze exclusieve privé-eetruimtes bieden een intieme setting voor speciale gelegenheden, met gepersonaliseerde menu's en toegewijde service."
+    },
+    "terrace": {
+      "title": "Savanne Terras",
+      "description": "Dineer onder de sterren op ons elegante terras, ontworpen om de serene schoonheid van de Ethiopische en Eritrese savanne op te roepen."
+    }
+  },
+  "reservation": {
+    "pageTitle": "Reserveer Uw Tafel",
+    "pageDescription": "Ervaar de authentieke smaken van Ethiopië en Eritrea in onze elegante eetomgeving",
+    "bookExperience": "Boek Uw Ervaring",
+    "formDescription": "Vul het formulier hieronder in om uw tafel bij Habesha Savanna te reserveren. Uw reserveringsverzoek wordt direct naar ons personeel gestuurd, en wij bevestigen uw boeking via e-mail of telefoon. We kijken ernaar uit om u een onvergetelijke Ethiopische eetervaring te bezorgen.",
+    "formSuccess": "Reserveringsverzoek Ingediend",
+    "formSuccessDescription": "We kijken ernaar uit u te verwelkomen bij Habesha Savanna. We nemen binnenkort contact met u op om uw reservering te bevestigen.",
+    "makeAnother": "Maak Nog Een Reservering",
+    "form": {
+      "name": "Volledige Naam",
+      "email": "E-mailadres",
+      "phone": "Telefoonnummer",
+      "date": "Datum",
+      "time": "Tijd",
+      "guests": "Aantal Gasten",
+      "occasion": "Gelegenheid (Optioneel)",
+      "message": "Speciale Verzoeken (Optioneel)",
+      "submit": "Reservering Indienen"
+    },
+    "hoursAvailability": "Openingstijden & Beschikbaarheid",
+    "lunchService": "Lunch Service",
+    "lunchHours": "Maandag - Zondag: 12:00 - 15:00",
+    "dinnerService": "Diner Service",
+    "dinnerHours1": "Maandag - Donderdag: 18:00 - 22:30",
+    "dinnerHours2": "Vrijdag - Zaterdag: 18:00 - 23:30",
+    "dinnerHours3": "Zondag: 18:00 - 22:00",
+    "advanceBooking": "Vooraf Reserveren",
+    "advanceBookingDesc": "We raden aan om minimaal 2-3 dagen van tevoren te reserveren, vooral voor weekend diners.",
+    "groupReservations": "Groepsreserveringen",
+    "groupReservationsDesc": "Voor groepen van 8 of meer personen, neem direct contact met ons op via +31 20 123 4567 of e-mail savanna2512@outlook.com"
+  }
+} 

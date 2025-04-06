@@ -1,0 +1,343 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Update the root color scheme to a more luxurious palette */
+:root {
+  --font-cormorant: var(--font-cormorant);
+  --font-montserrat: var(--font-montserrat);
+
+  --background: 25 30% 98%;
+  --foreground: 20 10% 15%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 20 10% 15%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 10% 15%;
+
+  --primary: 35 75% 45%;
+  --primary-foreground: 0 0% 98%;
+
+  --secondary: 15 25% 95%;
+  --secondary-foreground: 20 10% 15%;
+
+  --muted: 15 25% 95%;
+  --muted-foreground: 20 5% 45%;
+
+  --accent: 15 25% 95%;
+  --accent-foreground: 20 10% 15%;
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 20 15% 85%;
+  --input: 20 15% 85%;
+  --ring: 35 75% 45%;
+
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 20 20% 8%;
+  --foreground: 0 0% 98%;
+
+  --card: 20 20% 10%;
+  --card-foreground: 0 0% 98%;
+
+  --popover: 20 20% 10%;
+  --popover-foreground: 0 0% 98%;
+
+  --primary: 35 75% 50%;
+  --primary-foreground: 20 20% 8%;
+
+  --secondary: 20 20% 15%;
+  --secondary-foreground: 0 0% 98%;
+
+  --muted: 20 20% 15%;
+  --muted-foreground: 20 5% 65%;
+
+  --accent: 20 20% 15%;
+  --accent-foreground: 0 0% 98%;
+
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 20 20% 15%;
+  --input: 20 20% 15%;
+  --ring: 35 75% 50%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-montserrat;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-cormorant font-medium tracking-tight;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+@layer components {
+  .container-luxe {
+    @apply container mx-auto px-4 md:px-6 lg:px-8 max-w-7xl;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+
+  .heading-xl {
+    @apply font-cormorant text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight;
+  }
+
+  .heading-lg {
+    @apply font-cormorant text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight;
+  }
+
+  .heading-md {
+    @apply font-cormorant text-2xl md:text-3xl font-medium tracking-tight;
+  }
+
+  .heading-sm {
+    @apply font-cormorant text-xl md:text-2xl font-medium tracking-tight;
+  }
+
+  .text-body {
+    @apply font-montserrat text-base leading-relaxed;
+  }
+
+  .text-small {
+    @apply font-montserrat text-sm leading-relaxed;
+  }
+
+  .gold-gradient {
+    @apply bg-gradient-to-r from-amber-800 via-amber-600 to-amber-800 bg-clip-text text-transparent;
+  }
+
+  .menu-item {
+    @apply border-b border-amber-200/30 pb-6 mb-6 last:border-0 last:mb-0 last:pb-0;
+  }
+
+  .menu-item-title {
+    @apply flex justify-between items-baseline mb-2;
+  }
+
+  .menu-item-name {
+    @apply text-2xl font-cormorant font-medium text-amber-900;
+  }
+
+  .menu-item-price {
+    @apply text-xl font-cormorant font-medium text-amber-700 bg-amber-50 px-3 py-1 rounded-sm;
+  }
+
+  .menu-item-description {
+    @apply text-muted-foreground;
+  }
+
+  .luxury-card {
+    @apply bg-white border border-amber-200/30 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow duration-300;
+  }
+
+  .luxury-input {
+    @apply bg-white border border-amber-200 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-amber-500 transition-all duration-200;
+  }
+
+  .luxury-button {
+    @apply bg-gradient-to-r from-amber-800 to-amber-700 text-white px-6 py-3 rounded-md hover:from-amber-900 hover:to-amber-800 transition-all duration-300 font-medium;
+  }
+
+  .luxury-button-outline {
+    @apply border-2 border-amber-800 text-amber-800 px-6 py-3 rounded-md hover:bg-amber-800 hover:text-white transition-all duration-300 font-medium;
+  }
+
+  /* Luxury decorative elements */
+  .luxury-divider {
+    @apply relative flex items-center justify-center my-8;
+  }
+
+  /* Fix the luxury-divider pseudo-elements */
+  .luxury-divider::before,
+  .luxury-divider::after {
+    @apply h-px bg-amber-300/50 flex-grow;
+    content: "";
+  }
+
+  .luxury-divider::before {
+    @apply mr-4;
+  }
+
+  .luxury-divider::after {
+    @apply ml-4;
+  }
+
+  .luxury-divider-icon {
+    @apply text-amber-600;
+  }
+
+  /* Luxury styled scroll bar */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-amber-50;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-amber-600 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-amber-700;
+  }
+
+  /* Luxury interactive elements */
+  .luxury-hover-lift {
+    @apply transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg;
+  }
+
+  .luxury-hover-glow {
+    @apply transition-all duration-300 hover:shadow-[0_0_15px_rgba(217,119,6,0.4)];
+  }
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.8s ease forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.8s ease forwards;
+}
+
+/* Staggered animations for children */
+.stagger-children > *:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.stagger-children > *:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.stagger-children > *:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.stagger-children > *:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.stagger-children > *:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.stagger-children > *:nth-child(6) {
+  animation-delay: 0.6s;
+}
+
+/* Luxury animations */
+@keyframes shine {
+  from {
+    background-position: -200% center;
+  }
+  to {
+    background-position: 200% center;
+  }
+}
+
+.luxury-shine {
+  background: linear-gradient(
+    90deg,
+    rgba(217, 119, 6, 0) 0%,
+    rgba(217, 119, 6, 0.4) 25%,
+    rgba(251, 191, 36, 0.6) 50%,
+    rgba(217, 119, 6, 0.4) 75%,
+    rgba(217, 119, 6, 0) 100%
+  );
+  background-size: 200% auto;
+  animation: shine 4s linear infinite;
+  -webkit-background-clip: text;
+}
+
+/* Gold text effect */
+.luxury-gold-text {
+  background: linear-gradient(to right, #b45309, #fbbf24, #b45309);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+/* Luxury border effect */
+.luxury-border {
+  position: relative;
+}
+
+.luxury-border::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(217, 119, 6, 0.3);
+  box-shadow: 0 0 20px rgba(217, 119, 6, 0.1);
+  pointer-events: none;
+}
+
