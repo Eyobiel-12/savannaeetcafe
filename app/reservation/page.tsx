@@ -242,10 +242,10 @@ export default function ReservationPage() {
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 items-center">
               <a
-                href="tel:+31201234567"
+                href="tel:+31684293837"
                 className="text-amber-800 hover:text-amber-900 transition-colors flex items-center"
               >
-                <Clock className="h-5 w-5 mr-2" /> +31 20 123 4567
+                <Clock className="h-5 w-5 mr-2" /> +31 6 84293837
               </a>
               <span className="hidden sm:inline text-amber-300">•</span>
               <a

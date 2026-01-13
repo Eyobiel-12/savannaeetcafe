@@ -200,7 +200,7 @@ export default function Home() {
               </p>
               <ul className="space-y-6 mb-8">
                 {[
-                  { icon: Phone, title: t('home.reservation.callUs'), content: "+31 20 123 4567" },
+                  { icon: Phone, title: t('home.reservation.callUs'), content: "+31 6 84293837" },
                   {
                     icon: Clock,
                     title: t('home.reservation.openingHours'),
