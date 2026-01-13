@@ -114,6 +114,9 @@
       "date": "Datum",
       "time": "Tijd",
       "guests": "Aantal Gasten",
+      "guestSingular": "Gast",
+      "guestPlural": "Gasten",
+      "moreThan8": "Meer dan 8 (Bel voor beschikbaarheid)",
       "occasion": "Gelegenheid (Optioneel)",
       "message": "Speciale Verzoeken (Optioneel)",
       "submit": "Reservering Indienen"

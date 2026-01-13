@@ -114,6 +114,9 @@
       "date": "Date",
       "time": "Time",
       "guests": "Number of Guests",
+      "guestSingular": "Guest",
+      "guestPlural": "Guests",
+      "moreThan8": "More than 8 (Call for availability)",
       "occasion": "Occasion (Optional)",
       "message": "Special Requests (Optional)",
       "submit": "Submit Reservation"

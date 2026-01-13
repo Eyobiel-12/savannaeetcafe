@@ -165,16 +165,24 @@ export default function ReservationForm() {
       // Send email using EmailJS
       // Note: Make sure your EmailJS template (template_38d2vsb) has these variables:
       // {{name}}, {{email}}, {{phone}}, {{date}}, {{time}}, {{guests}}, {{occasion}}, {{message}}
+      // Format guests value for better display
+      const guestsDisplay = formData.guests === 'more' 
+        ? 'More than 8 (Call for availability)' 
+        : `${formData.guests} ${formData.guests === '1' ? 'Guest' : 'Guests'}`
+      
       const emailParams = {
         name: formData.name,
         email: formData.email,
         phone: formData.phone,
         date: formData.date,
         time: formData.time,
-        guests: formData.guests,
+        guests: guestsDisplay,
+        aantal: formData.guests, // Also send as 'aantal' for Dutch template compatibility
         occasion: formData.occasion || 'Not specified',
         message: formData.message || 'No additional message',
       }
+      
+      console.log('Sending reservation with guests:', formData.guests, 'Display:', guestsDisplay)
 
       // Initialize EmailJS with your public key
       window.emailjs.init("8F_ErQkIrFhGbcxv-")
@@ -352,7 +360,7 @@ export default function ReservationForm() {
 
             <div className="space-y-2">
               <Label htmlFor="guests" className="font-medium text-amber-900">
-                Number of Guests <span className="text-red-500">*</span>
+                {t('reservation.form.guests')} <span className="text-red-500">*</span>
               </Label>
               <div className="relative">
                 <div className="absolute left-3 top-2.5 text-amber-500 z-10">
@@ -365,15 +373,15 @@ export default function ReservationForm() {
                       errors.guests ? "border-red-300 focus:border-red-500 focus:ring-red-500" : ""
                     }`}
                   >
-                    <SelectValue placeholder="Select number of guests" />
+                    <SelectValue placeholder={t('reservation.form.guests')} />
                   </SelectTrigger>
                   <SelectContent className="bg-white border border-amber-200">
                     {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
                       <SelectItem key={num} value={num.toString()}>
-                        {num} {num === 1 ? "Guest" : "Guests"}
+                        {num} {num === 1 ? t('reservation.form.guestSingular') : t('reservation.form.guestPlural')}
                       </SelectItem>
                     ))}
-                    <SelectItem value="more">More than 8 (Call for availability)</SelectItem>
+                    <SelectItem value="more">{t('reservation.form.moreThan8')}</SelectItem>
                   </SelectContent>
                 </Select>
                 {errors.guests && (
