@@ -140,8 +140,8 @@ export default function ContactPage() {
                     <MapPin className="h-6 w-6 text-amber-600 mt-1" />
                     <div>
                       <h3 className="font-medium text-lg">Address</h3>
-                      <p className="text-gray-700">123 Restaurant Street</p>
-                      <p className="text-gray-700">Amsterdam, Netherlands</p>
+                      <p className="text-gray-700">Boekhorststraat 44</p>
+                      <p className="text-gray-700">2512 CS Den Haag</p>
                       <a
                         href="https://maps.app.goo.gl/JyD8qQWNWkLVms1p9"
                         target="_blank"

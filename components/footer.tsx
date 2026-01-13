@@ -119,9 +119,9 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-amber-200/80 text-sm">
-                    123 Restaurant Street
+                    Boekhorststraat 44
                     <br />
-                    Amsterdam, Netherlands
+                    2512 CS Den Haag
                   </p>
                   <a
                     href="https://maps.app.goo.gl/JyD8qQWNWkLVms1p9"
