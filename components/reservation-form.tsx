@@ -164,7 +164,7 @@ export default function ReservationForm() {
     try {
       // Send email using EmailJS
       // Note: Make sure your EmailJS template (template_38d2vsb) has these variables:
-      // {{name}}, {{email}}, {{phone}}, {{date}}, {{time}}, {{guests}}, {{occasion}}, {{message}}
+      // {{name}}, {{email}}, {{phone}}, {{date}}, {{time}}, {{partySize}}, {{occasion}}, {{specialRequests}}
       // Format guests value for better display
       const guestsNumber = formData.guests === 'more' ? '8+' : formData.guests
       const guestsDisplay = formData.guests === 'more' 
@@ -177,16 +177,22 @@ export default function ReservationForm() {
         phone: formData.phone,
         date: formData.date,
         time: formData.time,
-        guests: guestsNumber, // Send raw number first (most common template variable)
-        aantal: formData.guests, // Also send as 'aantal' for Dutch template compatibility
-        party_size: guestsNumber, // Alternative variable name
-        number_of_guests: guestsNumber, // Another alternative
-        guests_display: guestsDisplay, // Formatted display version
+        // Template uses {{partySize}} - send the raw number
+        partySize: guestsNumber,
+        // Also send in other formats for compatibility
+        guests: guestsNumber,
+        aantal: formData.guests,
+        party_size: guestsNumber,
+        number_of_guests: guestsNumber,
+        guests_display: guestsDisplay,
         occasion: formData.occasion || 'Not specified',
+        // Template uses {{specialRequests}}
+        specialRequests: formData.message || 'No additional message',
+        // Also send as message for backward compatibility
         message: formData.message || 'No additional message',
       }
       
-      console.log('Sending reservation with guests:', formData.guests, 'Number:', guestsNumber, 'Display:', guestsDisplay)
+      console.log('Sending reservation with guests:', formData.guests, 'Number:', guestsNumber, 'partySize:', guestsNumber)
 
       // Initialize EmailJS with your public key
       window.emailjs.init("8F_ErQkIrFhGbcxv-")
