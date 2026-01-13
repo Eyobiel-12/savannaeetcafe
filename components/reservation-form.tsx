@@ -166,6 +166,7 @@ export default function ReservationForm() {
       // Note: Make sure your EmailJS template (template_38d2vsb) has these variables:
       // {{name}}, {{email}}, {{phone}}, {{date}}, {{time}}, {{guests}}, {{occasion}}, {{message}}
       // Format guests value for better display
+      const guestsNumber = formData.guests === 'more' ? '8+' : formData.guests
       const guestsDisplay = formData.guests === 'more' 
         ? 'More than 8 (Call for availability)' 
         : `${formData.guests} ${formData.guests === '1' ? 'Guest' : 'Guests'}`
@@ -176,13 +177,16 @@ export default function ReservationForm() {
         phone: formData.phone,
         date: formData.date,
         time: formData.time,
-        guests: guestsDisplay,
+        guests: guestsNumber, // Send raw number first (most common template variable)
         aantal: formData.guests, // Also send as 'aantal' for Dutch template compatibility
+        party_size: guestsNumber, // Alternative variable name
+        number_of_guests: guestsNumber, // Another alternative
+        guests_display: guestsDisplay, // Formatted display version
         occasion: formData.occasion || 'Not specified',
         message: formData.message || 'No additional message',
       }
       
-      console.log('Sending reservation with guests:', formData.guests, 'Display:', guestsDisplay)
+      console.log('Sending reservation with guests:', formData.guests, 'Number:', guestsNumber, 'Display:', guestsDisplay)
 
       // Initialize EmailJS with your public key
       window.emailjs.init("8F_ErQkIrFhGbcxv-")
